@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Node JS Full Course 2024 | Complete Backend Development Course | Part 1",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "Learn",
@@ -16,6 +18,10 @@
   "dependencies": {
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
-    "mongoose": "^8.18.0"
+    "mongoose": "^8.18.0",
+    "mongoose-sequence": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }

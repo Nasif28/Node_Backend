@@ -2,4 +2,6 @@ npm init
 npm init -y
 npm install express
 npm install mongoose
+npm install mongoose-sequence
 npm install dotenv
+npm install nodemon --save-dev
