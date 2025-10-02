@@ -5,3 +5,7 @@ npm install mongoose
 npm install mongoose-sequence
 npm install dotenv
 npm install nodemon --save-dev
+npm install bcryptjs
+npm install zod
+npm install express-rate-limit
+npm install jsonwebtoken
